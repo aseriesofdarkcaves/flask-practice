@@ -16,4 +16,11 @@ pip install flask
 
 # check dependencies
 pip freeze
+
+# confirm flask is available within python interpreter
+python
+import flask
+
+# exit virtual environment shell
+deactivate
 ```
