@@ -4,7 +4,7 @@ Practice code from the book Flask Web Development by Miguel Grinberg.
 
 ## Initial setup
 In the same current directory as this project:
-```
+```shell
 # generate a virtual environment for this project
 python3 -m venv venv
 
@@ -16,6 +16,9 @@ pip install flask
 
 # check dependencies
 pip freeze
+
+# freeze the current requirements into a file
+pip freeze -l > requirements.txt
 
 # confirm flask is available within python interpreter
 python
