@@ -3,7 +3,9 @@
 Practice code from the book Flask Web Development by Miguel Grinberg.
 
 ## Initial setup
+
 In the same current directory as this project:
+
 ```shell
 # generate a virtual environment for this project
 python3 -m venv venv
