@@ -17,9 +17,19 @@ Implementation of index and dynamic URL functions which use templates in the res
 
 ## Flask-Bootstrap
 
-TODO: overview of what it is and what it does
+Bootstrap is an open-source web-browser framework from Twitter which provides interface components. It is a client-side
+framework, so the server only needs to provide HTML responses that reference Bootstrap's CSS and JavaScript files. This
+can be done via templates.
 
-To install within the virtual invironment:
+We use a Flask extension called `flask-bootstrap` to organise the changes to the templates.
+
+To install `flask-bootstrap` in the virtual invironment:
+
 ```shell
 pip install flask-bootstrap
 ```
+
+## hello-bootstrap.py
+
+A simple app which uses Flask-Bootstrap. The `user-bootstrap.html` template file shows how template inheritance works by
+referencing `bootstrap/base.html` from Flask-Bootstrap.
