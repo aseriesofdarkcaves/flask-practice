@@ -13,6 +13,10 @@ In most cases, I just added the `app.run()` statement so that I can run it in Py
 
 The hello world app with a single route.
 
+## hello-abort.py
+
+Example showing basic error-handling using the `abort` function.
+
 ## hello-dynamic.py
 
 Builds on `hello.py` to add a second route which handles dynamic URLs.
@@ -27,6 +31,10 @@ export FLASK_DEBUG=1
 ```
 
 The console will print out a PIN to use to gain access.
+
+## hello-redirect.py
+
+Shows how to issue a redirect response.
 
 ## hello-request-object.py
 
