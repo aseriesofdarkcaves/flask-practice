@@ -27,3 +27,11 @@ export FLASK_DEBUG=1
 ```
 
 The console will print out a PIN to use to gain access.
+
+## hello-request-object.py
+
+By importing `request`, we can work with attributes from the HTTP request.
+
+## hello-status-code.py
+
+Shows how to specify the HTTP status code in a return statement.
