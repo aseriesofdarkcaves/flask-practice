@@ -9,6 +9,8 @@ flask run
 
 In most cases, I just added the `app.run()` statement so that I can run it in PyCharm.
 
+---
+
 ## hello.py
 
 The hello world app with a single route.
@@ -42,7 +44,7 @@ By importing `request`, we can work with attributes from the HTTP request.
 
 ## hello-response-object.py
 
-By importing `make_response` we can create a response object and manipulate it before returning it. 
+By importing `make_response` we can create a response object and manipulate it before returning it.
 
 ## hello-status-code.py
 
