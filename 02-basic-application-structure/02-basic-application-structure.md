@@ -19,7 +19,7 @@ Example showing basic error-handling using the `abort` function.
 
 ## hello-dynamic.py
 
-Builds on `hello.py` to add a second route which handles dynamic URLs.
+Adds a second route which handles dynamic URLs.
 
 ## hello-dynamic-debug.py
 
