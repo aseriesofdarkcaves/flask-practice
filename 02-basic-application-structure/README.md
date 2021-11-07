@@ -32,6 +32,10 @@ The console will print out a PIN to use to gain access.
 
 By importing `request`, we can work with attributes from the HTTP request.
 
+## hello-response-object.py
+
+By importing `make_response` we can create a response object and manipulate it before returning it. 
+
 ## hello-status-code.py
 
 Shows how to specify the HTTP status code in a return statement.
