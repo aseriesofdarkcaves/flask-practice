@@ -29,7 +29,13 @@ To install `flask-bootstrap` in the virtual invironment:
 pip install flask-bootstrap
 ```
 
+---
+
 ## hello-bootstrap.py
 
 A simple app which uses Flask-Bootstrap. The `user-bootstrap.html` template file shows how template inheritance works by
 referencing `bootstrap/base.html` from Flask-Bootstrap.
+
+## hello-error-pages.py
+
+Shows how to use template inheritance and how to customise error pages using decorators.
