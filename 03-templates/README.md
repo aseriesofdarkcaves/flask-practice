@@ -39,3 +39,9 @@ referencing `bootstrap/base.html` from Flask-Bootstrap.
 ## hello-error-pages.py
 
 Shows how to use template inheritance and how to customise error pages using decorators.
+
+---
+
+## hello-favicon.py
+
+Shows how to set a favicon for a page.
